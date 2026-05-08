@@ -49,32 +49,59 @@ async def analyze_document(file: UploadFile = File(...)):
         rule_result = generate_evidence(features)
         ml_result = predict_with_model(features)
 
-        # Hybrid decision:
-        # Rule-based score gives forensic risk.
-        # ML prediction gives learned classification.
-        authenticity_score = rule_result["authenticity_score"]
+        rule_score = rule_result["authenticity_score"]
         rule_label = rule_result["risk_label"]
         ml_prediction = ml_result["ml_prediction"]
+        ml_confidence = ml_result["ml_confidence"]
 
-        if ml_prediction == "Forged" and authenticity_score < 75:
-            final_label = "Forged" if authenticity_score < 50 else "Suspicious"
-        elif ml_prediction == "Authentic" and authenticity_score >= 60:
+        # ML-first decision strategy:
+        # The trained model is the primary classifier.
+        # Rule-based evidence is used only as supporting forensic explanation.
+
+        if ml_prediction == "Authentic":
             final_label = "Authentic"
-        elif authenticity_score >= 75:
-            final_label = "Authentic"
-        elif authenticity_score >= 40:
-            final_label = "Suspicious"
-        else:
+            authenticity_score = int(ml_confidence * 100)
+
+            # If forensic rules are very suspicious, reduce confidence slightly
+            # but do not directly flip the ML prediction.
+            if rule_score < 50:
+                authenticity_score = max(60, authenticity_score - 15)
+
+        elif ml_prediction == "Forged":
             final_label = "Forged"
+            authenticity_score = int((1 - ml_confidence) * 100)
+
+            # If model confidence is low, soften final output to Suspicious.
+            if ml_confidence < 0.65:
+                final_label = "Suspicious"
+                authenticity_score = max(40, authenticity_score)
+
+        else:
+            final_label = rule_label
+            authenticity_score = rule_score
 
         response = {
             "filename": filename,
-            "authenticity_score": authenticity_score,
+
+            "final_authenticity_score": authenticity_score,
+            "final_tampering_risk_score": 100 - authenticity_score,
             "risk_label": final_label,
-            "rule_based_label": rule_label,
+
             "ml_prediction": ml_prediction,
-            "ml_confidence": ml_result["ml_confidence"],
+            "ml_confidence": ml_confidence,
             "class_probabilities": ml_result["class_probabilities"],
+
+            "rule_based_authenticity_score": rule_score,
+            "rule_based_tampering_risk_score": 100 - rule_score,
+            "rule_based_label": rule_label,
+
+            "interpretation_note": (
+                "The final risk_label and final scores are primarily based on the trained ML classifier. "
+                "Rule-based evidence is used as supporting forensic explanation. "
+                "In this project, Authentic means no strong tampering pattern was detected "
+                "within the synthetic dataset context; it does not verify legal genuineness."
+            ),
+
             "evidence": rule_result["evidence"],
             "features": features
         }
