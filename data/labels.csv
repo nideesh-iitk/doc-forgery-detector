@@ -1,0 +1,71 @@
+filename,label,category,path
+AIGen_Aadhar Card_4.jpg,Authentic,Aadhar,D:\Projects\doc-forgery-detector\data\raw\authentic\Aadhar\AIGen_Aadhar Card_4.jpg
+AIGen_Aadhar Card_5.jpg,Authentic,Aadhar,D:\Projects\doc-forgery-detector\data\raw\authentic\Aadhar\AIGen_Aadhar Card_5.jpg
+AIGen_Aadhar Card_6.jpg,Authentic,Aadhar,D:\Projects\doc-forgery-detector\data\raw\authentic\Aadhar\AIGen_Aadhar Card_6.jpg
+AIGen_Aadhar Card_7.jpg,Authentic,Aadhar,D:\Projects\doc-forgery-detector\data\raw\authentic\Aadhar\AIGen_Aadhar Card_7.jpg
+Orginal-AIGen_Aadhar Card_5.jpg,Authentic,Aadhar,D:\Projects\doc-forgery-detector\data\raw\authentic\Aadhar\Orginal-AIGen_Aadhar Card_5.jpg
+Original-AIGen_Aadhar Card_4.jpg,Authentic,Aadhar,D:\Projects\doc-forgery-detector\data\raw\authentic\Aadhar\Original-AIGen_Aadhar Card_4.jpg
+Original-AIGen_Aadhar Card_6.jpg,Authentic,Aadhar,D:\Projects\doc-forgery-detector\data\raw\authentic\Aadhar\Original-AIGen_Aadhar Card_6.jpg
+Original-AIGen_Aadhar Card_7.jpg,Authentic,Aadhar,D:\Projects\doc-forgery-detector\data\raw\authentic\Aadhar\Original-AIGen_Aadhar Card_7.jpg
+AIGen_Bank Stt_1.png,Authentic,Bank_Statement,D:\Projects\doc-forgery-detector\data\raw\authentic\Bank_Statement\AIGen_Bank Stt_1.png
+AIGen_Bank Stt_3.png,Authentic,Bank_Statement,D:\Projects\doc-forgery-detector\data\raw\authentic\Bank_Statement\AIGen_Bank Stt_3.png
+AIGen_Bank Stt_5.jpg,Authentic,Bank_Statement,D:\Projects\doc-forgery-detector\data\raw\authentic\Bank_Statement\AIGen_Bank Stt_5.jpg
+AIGen_Bank Stt_8.jpg,Authentic,Bank_Statement,D:\Projects\doc-forgery-detector\data\raw\authentic\Bank_Statement\AIGen_Bank Stt_8.jpg
+Original-AIGen_Bank Stt_1.png,Authentic,Bank_Statement,D:\Projects\doc-forgery-detector\data\raw\authentic\Bank_Statement\Original-AIGen_Bank Stt_1.png
+Original-AIGen_Bank Stt_3.png,Authentic,Bank_Statement,D:\Projects\doc-forgery-detector\data\raw\authentic\Bank_Statement\Original-AIGen_Bank Stt_3.png
+Original-AIGen_Bank Stt_5.jpg,Authentic,Bank_Statement,D:\Projects\doc-forgery-detector\data\raw\authentic\Bank_Statement\Original-AIGen_Bank Stt_5.jpg
+Original-AIGen_Bank Stt_8.jpg,Authentic,Bank_Statement,D:\Projects\doc-forgery-detector\data\raw\authentic\Bank_Statement\Original-AIGen_Bank Stt_8.jpg
+AIGen_Certificate_1.png,Authentic,Certificate,D:\Projects\doc-forgery-detector\data\raw\authentic\Certificate\AIGen_Certificate_1.png
+AIGen_Certificate_3.png,Authentic,Certificate,D:\Projects\doc-forgery-detector\data\raw\authentic\Certificate\AIGen_Certificate_3.png
+AIGen_Certificate_4.jpg,Authentic,Certificate,D:\Projects\doc-forgery-detector\data\raw\authentic\Certificate\AIGen_Certificate_4.jpg
+Original-AIGen_Certificate_1.png,Authentic,Certificate,D:\Projects\doc-forgery-detector\data\raw\authentic\Certificate\Original-AIGen_Certificate_1.png
+Original-AIGen_Certificate_3.png,Authentic,Certificate,D:\Projects\doc-forgery-detector\data\raw\authentic\Certificate\Original-AIGen_Certificate_3.png
+Original-AIGen_Certificate_4.jpg,Authentic,Certificate,D:\Projects\doc-forgery-detector\data\raw\authentic\Certificate\Original-AIGen_Certificate_4.jpg
+AIGen_ID Card_1.png,Authentic,ID_card,D:\Projects\doc-forgery-detector\data\raw\authentic\ID_card\AIGen_ID Card_1.png
+AIGen_ID Card_4.jpg,Authentic,ID_card,D:\Projects\doc-forgery-detector\data\raw\authentic\ID_card\AIGen_ID Card_4.jpg
+AIGen_ID Card_5.jpg,Authentic,ID_card,D:\Projects\doc-forgery-detector\data\raw\authentic\ID_card\AIGen_ID Card_5.jpg
+Original-AIGen_ID Card_1.png,Authentic,ID_card,D:\Projects\doc-forgery-detector\data\raw\authentic\ID_card\Original-AIGen_ID Card_1.png
+Original-AIGen_ID Card_4.jpg,Authentic,ID_card,D:\Projects\doc-forgery-detector\data\raw\authentic\ID_card\Original-AIGen_ID Card_4.jpg
+Original-AIGen_ID Card_5.jpg,Authentic,ID_card,D:\Projects\doc-forgery-detector\data\raw\authentic\ID_card\Original-AIGen_ID Card_5.jpg
+AIGen_PAN Card_1.jpg,Authentic,PAN_Card,D:\Projects\doc-forgery-detector\data\raw\authentic\PAN_Card\AIGen_PAN Card_1.jpg
+AIGen_PAN Card_5.jpg,Authentic,PAN_Card,D:\Projects\doc-forgery-detector\data\raw\authentic\PAN_Card\AIGen_PAN Card_5.jpg
+AIGen_PAN Card_7.jpg,Authentic,PAN_Card,D:\Projects\doc-forgery-detector\data\raw\authentic\PAN_Card\AIGen_PAN Card_7.jpg
+Original-AIGen_PAN Card_1.jpg,Authentic,PAN_Card,D:\Projects\doc-forgery-detector\data\raw\authentic\PAN_Card\Original-AIGen_PAN Card_1.jpg
+Original-AIGen_PAN Card_5.jpg,Authentic,PAN_Card,D:\Projects\doc-forgery-detector\data\raw\authentic\PAN_Card\Original-AIGen_PAN Card_5.jpg
+Original-AIGen_PAN Card_7.jpg,Authentic,PAN_Card,D:\Projects\doc-forgery-detector\data\raw\authentic\PAN_Card\Original-AIGen_PAN Card_7.jpg
+AIGen_Aadhar Card_1.png,Forged,Aadhar,D:\Projects\doc-forgery-detector\data\raw\forged\Aadhar\AIGen_Aadhar Card_1.png
+AIGen_Aadhar Card_2.png,Forged,Aadhar,D:\Projects\doc-forgery-detector\data\raw\forged\Aadhar\AIGen_Aadhar Card_2.png
+AIGen_Aadhar Card_3.jpg,Forged,Aadhar,D:\Projects\doc-forgery-detector\data\raw\forged\Aadhar\AIGen_Aadhar Card_3.jpg
+AIGen_Aadhar Card_8.jpg,Forged,Aadhar,D:\Projects\doc-forgery-detector\data\raw\forged\Aadhar\AIGen_Aadhar Card_8.jpg
+AIGen_Aadhar Card_9.jpg,Forged,Aadhar,D:\Projects\doc-forgery-detector\data\raw\forged\Aadhar\AIGen_Aadhar Card_9.jpg
+Forged-AIGen_Aadhar Card_1.png,Forged,Aadhar,D:\Projects\doc-forgery-detector\data\raw\forged\Aadhar\Forged-AIGen_Aadhar Card_1.png
+Forged-AIGen_Aadhar Card_2.png,Forged,Aadhar,D:\Projects\doc-forgery-detector\data\raw\forged\Aadhar\Forged-AIGen_Aadhar Card_2.png
+Forged-AIGen_Aadhar Card_3.jpg,Forged,Aadhar,D:\Projects\doc-forgery-detector\data\raw\forged\Aadhar\Forged-AIGen_Aadhar Card_3.jpg
+Forged-AIGen_Aadhar Card_8.jpg,Forged,Aadhar,D:\Projects\doc-forgery-detector\data\raw\forged\Aadhar\Forged-AIGen_Aadhar Card_8.jpg
+Forged-AIGen_Aadhar Card_9.jpg,Forged,Aadhar,D:\Projects\doc-forgery-detector\data\raw\forged\Aadhar\Forged-AIGen_Aadhar Card_9.jpg
+AIGen_Bank Stt_2.png,Forged,Bank_Statement,D:\Projects\doc-forgery-detector\data\raw\forged\Bank_Statement\AIGen_Bank Stt_2.png
+AIGen_Bank Stt_4.jpg,Forged,Bank_Statement,D:\Projects\doc-forgery-detector\data\raw\forged\Bank_Statement\AIGen_Bank Stt_4.jpg
+AIGen_Bank Stt_6.jpg,Forged,Bank_Statement,D:\Projects\doc-forgery-detector\data\raw\forged\Bank_Statement\AIGen_Bank Stt_6.jpg
+AIGen_Bank Stt_7.jpg,Forged,Bank_Statement,D:\Projects\doc-forgery-detector\data\raw\forged\Bank_Statement\AIGen_Bank Stt_7.jpg
+Forged-AIGen_Bank Stt_2.png,Forged,Bank_Statement,D:\Projects\doc-forgery-detector\data\raw\forged\Bank_Statement\Forged-AIGen_Bank Stt_2.png
+Forged-AIGen_Bank Stt_4.jpg,Forged,Bank_Statement,D:\Projects\doc-forgery-detector\data\raw\forged\Bank_Statement\Forged-AIGen_Bank Stt_4.jpg
+Forged-AIGen_Bank Stt_6.jpg,Forged,Bank_Statement,D:\Projects\doc-forgery-detector\data\raw\forged\Bank_Statement\Forged-AIGen_Bank Stt_6.jpg
+Forged-AIGen_Bank Stt_7.jpg,Forged,Bank_Statement,D:\Projects\doc-forgery-detector\data\raw\forged\Bank_Statement\Forged-AIGen_Bank Stt_7.jpg
+AIGen_Certificate_2.png,Forged,Certificate,D:\Projects\doc-forgery-detector\data\raw\forged\Certificate\AIGen_Certificate_2.png
+AIGen_Certificate_5.jpg,Forged,Certificate,D:\Projects\doc-forgery-detector\data\raw\forged\Certificate\AIGen_Certificate_5.jpg
+Forged-AIGen_Certificate_2.png,Forged,Certificate,D:\Projects\doc-forgery-detector\data\raw\forged\Certificate\Forged-AIGen_Certificate_2.png
+Forged-AIGen_Certificate_5.jpg,Forged,Certificate,D:\Projects\doc-forgery-detector\data\raw\forged\Certificate\Forged-AIGen_Certificate_5.jpg
+AIGen_ID Card_2.png,Forged,ID_card,D:\Projects\doc-forgery-detector\data\raw\forged\ID_card\AIGen_ID Card_2.png
+AIGen_ID Card_3.jpg,Forged,ID_card,D:\Projects\doc-forgery-detector\data\raw\forged\ID_card\AIGen_ID Card_3.jpg
+Forged-AIGen_ID Card_2.png,Forged,ID_card,D:\Projects\doc-forgery-detector\data\raw\forged\ID_card\Forged-AIGen_ID Card_2.png
+Forged-AIGen_ID Card_3.jpg,Forged,ID_card,D:\Projects\doc-forgery-detector\data\raw\forged\ID_card\Forged-AIGen_ID Card_3.jpg
+AIGen_PAN Card_2.png,Forged,PAN_Card,D:\Projects\doc-forgery-detector\data\raw\forged\PAN_Card\AIGen_PAN Card_2.png
+AIGen_PAN Card_3.png,Forged,PAN_Card,D:\Projects\doc-forgery-detector\data\raw\forged\PAN_Card\AIGen_PAN Card_3.png
+AIGen_PAN Card_4.png,Forged,PAN_Card,D:\Projects\doc-forgery-detector\data\raw\forged\PAN_Card\AIGen_PAN Card_4.png
+AIGen_PAN Card_6.jpg,Forged,PAN_Card,D:\Projects\doc-forgery-detector\data\raw\forged\PAN_Card\AIGen_PAN Card_6.jpg
+AIGen_PAN Card_8.jpg,Forged,PAN_Card,D:\Projects\doc-forgery-detector\data\raw\forged\PAN_Card\AIGen_PAN Card_8.jpg
+Forged--AIGen_PAN Card_3.png,Forged,PAN_Card,D:\Projects\doc-forgery-detector\data\raw\forged\PAN_Card\Forged--AIGen_PAN Card_3.png
+Forged-AIGen_PAN Card_2.png,Forged,PAN_Card,D:\Projects\doc-forgery-detector\data\raw\forged\PAN_Card\Forged-AIGen_PAN Card_2.png
+Forged-AIGen_PAN Card_4.png,Forged,PAN_Card,D:\Projects\doc-forgery-detector\data\raw\forged\PAN_Card\Forged-AIGen_PAN Card_4.png
+Forged-AIGen_PAN Card_6.jpg,Forged,PAN_Card,D:\Projects\doc-forgery-detector\data\raw\forged\PAN_Card\Forged-AIGen_PAN Card_6.jpg
+Forged-AIGen_PAN Card_8.jpg,Forged,PAN_Card,D:\Projects\doc-forgery-detector\data\raw\forged\PAN_Card\Forged-AIGen_PAN Card_8.jpg
