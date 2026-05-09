@@ -1,6 +1,7 @@
 import os
 import shutil
 import tempfile
+import time
 
 from fastapi import FastAPI, UploadFile, File, HTTPException
 
@@ -26,6 +27,8 @@ def root():
 
 @app.post("/doc/analyze")
 async def analyze_document(file: UploadFile = File(...)):
+    start_time = time.time()
+
     allowed_extensions = [".jpg", ".jpeg", ".png", ".pdf"]
 
     filename = file.filename
@@ -54,16 +57,10 @@ async def analyze_document(file: UploadFile = File(...)):
         ml_prediction = ml_result["ml_prediction"]
         ml_confidence = ml_result["ml_confidence"]
 
-        # ML-first decision strategy:
-        # The trained model is the primary classifier.
-        # Rule-based evidence is used only as supporting forensic explanation.
-
         if ml_prediction == "Authentic":
             final_label = "Authentic"
             authenticity_score = int(ml_confidence * 100)
 
-            # If forensic rules are very suspicious, reduce confidence slightly
-            # but do not directly flip the ML prediction.
             if rule_score < 50:
                 authenticity_score = max(60, authenticity_score - 15)
 
@@ -71,7 +68,6 @@ async def analyze_document(file: UploadFile = File(...)):
             final_label = "Forged"
             authenticity_score = int((1 - ml_confidence) * 100)
 
-            # If model confidence is low, soften final output to Suspicious.
             if ml_confidence < 0.65:
                 final_label = "Suspicious"
                 authenticity_score = max(40, authenticity_score)
@@ -80,12 +76,18 @@ async def analyze_document(file: UploadFile = File(...)):
             final_label = rule_label
             authenticity_score = rule_score
 
+        tampering_score = 100 - authenticity_score
+        processing_time_seconds = round(time.time() - start_time, 4)
+
         response = {
             "filename": filename,
 
-            "final_authenticity_score": authenticity_score,
-            "final_tampering_risk_score": 100 - authenticity_score,
+            "authenticity_score": authenticity_score,
+            "tampering_score": tampering_score,
             "risk_label": final_label,
+
+            "final_authenticity_score": authenticity_score,
+            "final_tampering_risk_score": tampering_score,
 
             "ml_prediction": ml_prediction,
             "ml_confidence": ml_confidence,
@@ -94,6 +96,8 @@ async def analyze_document(file: UploadFile = File(...)):
             "rule_based_authenticity_score": rule_score,
             "rule_based_tampering_risk_score": 100 - rule_score,
             "rule_based_label": rule_label,
+
+            "processing_time_seconds": processing_time_seconds,
 
             "interpretation_note": (
                 "The final risk_label and final scores are primarily based on the trained ML classifier. "
