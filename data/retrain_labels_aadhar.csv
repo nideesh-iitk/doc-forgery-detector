@@ -1,0 +1,16 @@
+filename,label,category,path
+TD_10_Original_Aadharcard.jpg,Authentic,Aadhar,D:\Projects\doc-forgery-detector\data\retrain_raw\authentic\Aadhar\TD_10_Original_Aadharcard.jpg
+TD_11_Original_Aadharcard.jpg,Authentic,Aadhar,D:\Projects\doc-forgery-detector\data\retrain_raw\authentic\Aadhar\TD_11_Original_Aadharcard.jpg
+TD_12_Original_Aadharcard.jpg,Authentic,Aadhar,D:\Projects\doc-forgery-detector\data\retrain_raw\authentic\Aadhar\TD_12_Original_Aadharcard.jpg
+TD_13_Original_Aadharcard.jpg,Authentic,Aadhar,D:\Projects\doc-forgery-detector\data\retrain_raw\authentic\Aadhar\TD_13_Original_Aadharcard.jpg
+TD_14_Original_Aadharcard.jpg,Authentic,Aadhar,D:\Projects\doc-forgery-detector\data\retrain_raw\authentic\Aadhar\TD_14_Original_Aadharcard.jpg
+TD_15_Original_Aadharcard.jpg,Authentic,Aadhar,D:\Projects\doc-forgery-detector\data\retrain_raw\authentic\Aadhar\TD_15_Original_Aadharcard.jpg
+TD_1_Forged_Aadharcard.jpg,Forged,Aadhar,D:\Projects\doc-forgery-detector\data\retrain_raw\forged\Aadhar\TD_1_Forged_Aadharcard.jpg
+TD_2_Forged_Aadharcard.jpg,Forged,Aadhar,D:\Projects\doc-forgery-detector\data\retrain_raw\forged\Aadhar\TD_2_Forged_Aadharcard.jpg
+TD_3_Forged_Aadharcard.jpg,Forged,Aadhar,D:\Projects\doc-forgery-detector\data\retrain_raw\forged\Aadhar\TD_3_Forged_Aadharcard.jpg
+TD_4_Forged_Aadharcard.jpg,Forged,Aadhar,D:\Projects\doc-forgery-detector\data\retrain_raw\forged\Aadhar\TD_4_Forged_Aadharcard.jpg
+TD_5_Forged_Aadharcard.jpg,Forged,Aadhar,D:\Projects\doc-forgery-detector\data\retrain_raw\forged\Aadhar\TD_5_Forged_Aadharcard.jpg
+TD_6_Forged_Aadharcard.jpg,Forged,Aadhar,D:\Projects\doc-forgery-detector\data\retrain_raw\forged\Aadhar\TD_6_Forged_Aadharcard.jpg
+TD_7_Forged_Aadharcard.jpg,Forged,Aadhar,D:\Projects\doc-forgery-detector\data\retrain_raw\forged\Aadhar\TD_7_Forged_Aadharcard.jpg
+TD_8_Forged_Aadharcard.jpg,Forged,Aadhar,D:\Projects\doc-forgery-detector\data\retrain_raw\forged\Aadhar\TD_8_Forged_Aadharcard.jpg
+TD_9_Forged_Aadharcard.jpg,Forged,Aadhar,D:\Projects\doc-forgery-detector\data\retrain_raw\forged\Aadhar\TD_9_Forged_Aadharcard.jpg
