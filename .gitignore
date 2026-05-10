@@ -7,3 +7,4 @@ __pycache__/
 data/raw/
 models/*.pkl
 models/*.joblib
+data/retrain_raw/
